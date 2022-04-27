@@ -12,7 +12,7 @@ const ServiceDetail = () => {
     }, [])
     return (
         <div>
-            <h2>Welcome to detail: {service.name}</h2>
+            <h2>Welcome yayyyy to detail: {service.name}</h2>
             <div className='text-center'>
                 <Link to="/checkout">
                     <button className='btn btn-primary'>Proceed Checkout</button>
